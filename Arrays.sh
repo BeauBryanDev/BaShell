@@ -27,7 +27,7 @@ Array1[7]=20;
 unset Array1[0]
 echo -en "Se elimina la posicion [0] en Array: ${Array1[*]}"
 echo -en "\nNuevo Array: ${Array1[*]}"
-echo -en "\nNueva longitud del Array: ${#Array1[*]}\n\n"
+echo -en "\nNueva longitud del Array : ${#Array1[*]}\n\n"
 
 function iterarListaNumeros   {
   arregloNumeros=(1 2 3 4 5 6)
